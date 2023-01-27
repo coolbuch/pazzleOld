@@ -1,0 +1,154 @@
+body
+{
+  margin: 0;
+}
+.content
+{
+  position: relative;
+
+}
+
+.game-field-wrapper
+{
+  height: 300px;
+  display: block;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  margin-top : 150px;
+
+}
+
+.game-field
+{
+  width: 450px;
+  height: 300px;
+  display: block;
+  margin: 0 auto;
+  background-image: url("1.jpg");
+  filter: grayscale(100%);
+}
+
+.row
+{
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+
+}
+
+.cell
+{
+  display: inline-block;
+  min-width: 50px;
+  min-height: 50px;
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+  float: left;
+  z-index: 10;
+}
+.selected
+{
+  border: solid;
+  border-color: white;
+  border-radius: 0.5px;
+  box-sizing: border-box;
+}
+.tile
+{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  z-index: 1;
+  background-image: url(1.jpg);
+}
+
+.tile-placed
+{
+  position: relative;
+}
+
+
+                /*--------ШУТОЧКА-----------*/
+.tile1, .tile2, .tile3, .tile4, .tile5, .tile6, .tile7, .tile8, .tile9
+{
+  background-image: url(1.jpg);
+  background-position-y: 0px;
+}
+
+.tile10, .tile11, .tile12, .tile13, .tile14, .tile15, .tile16, .tile17, .tile18
+{
+  background-image: url(1.jpg);
+  background-position-y: 50px;
+
+}
+
+
+.tile19 ,.tile20, .tile21, .tile22, .tile23, .tile24, .tile25, .tile26, .tile27
+{
+  background-image: url(1.jpg);
+  background-position-y: 100px;
+
+}
+
+.tile28 ,.tile29, .tile30, .tile31, .tile32, .tile33, .tile34, .tile35, .tile36
+{background-image: url(1.jpg);
+  background-position-y:150px}
+
+.tile37, .tile38, .tile39, .tile40, .tile41, .tile42, .tile43, .tile44, .tile45
+{background-image: url(1.jpg);
+    background-position-y: 200px;
+}
+
+.tile46 ,.tile47, .tile48, .tile49, .tile50, .tile51, .tile52, .tile53, .tile54
+{background-image: url(1.jpg);
+    background-position-y: 250px;
+}
+
+.tile1, .tile10, .tile19, .tile28, .tile37, .tile46
+{
+  background-image: url(1.jpg);
+  background-position-x: 0px;
+}
+.tile2, .tile11, .tile20, .tile29, .tile38, .tile47
+{
+  background-image: url(1.jpg);
+  background-position-x: 50px;
+}
+.tile3, .tile12, .tile21, .tile30, .tile39, .tile48
+{
+  background-image: url(1.jpg);
+  background-position-x: 100px;
+}
+.tile4, .tile13, .tile22, .tile31, .tile40, .tile49
+{
+  background-image: url(1.jpg);
+  background-position-x: 150px;
+}
+.tile5, .tile14, .tile23, .tile32, .tile41, .tile50
+{
+  background-image: url(1.jpg);
+  background-position-x: 200px;
+}
+.tile6, .tile15, .tile24, .tile33, .tile42, .tile51
+{
+  background-image: url(1.jpg);
+  background-position-x: 250px;
+}
+.tile7, .tile16, .tile25, .tile34, .tile43, .tile52
+{
+  background-image: url(1.jpg);
+  background-position-x: 300px;
+}
+.tile8, .tile17, .tile26, .tile35, .tile44, .tile53
+{
+  background-image: url(1.jpg);
+  background-position-x: 350px;
+}
+.tile9, .tile18, .tile27, .tile36, .tile45, .tile54
+{
+  background-image: url(1.jpg);
+  background-position-x: 400px;
+}
+          /*--------КОНЕЦ ШУТОЧКИ-----------*/
